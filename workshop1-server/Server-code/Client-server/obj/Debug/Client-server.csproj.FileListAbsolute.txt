@@ -1,0 +1,2 @@
+C:\Users\salij\source\repos\workshop1-server\Server-code\Client-server\obj\Debug\Client-server.csproj.AssemblyReference.cache
+C:\Users\salij\source\repos\workshop1-server\Server-code\Client-server\obj\Debug\Client-server.csproj.CoreCompileInputs.cache

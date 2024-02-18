@@ -1,0 +1,14 @@
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\bin\Debug\net6.0\PipesAndFilters.exe
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\bin\Debug\net6.0\PipesAndFilters.deps.json
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\bin\Debug\net6.0\PipesAndFilters.runtimeconfig.json
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\bin\Debug\net6.0\PipesAndFilters.dll
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\bin\Debug\net6.0\PipesAndFilters.pdb
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.AssemblyInfoInputs.cache
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.AssemblyInfo.cs
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.csproj.CoreCompileInputs.cache
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.dll
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\refint\PipesAndFilters.dll
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.pdb
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\PipesAndFilters.genruntimeconfig.cache
+C:\Users\salij\Downloads\PipesAndFiltersLab\PipesAndFiltersLab\PipesAndFilters\PipesAndFilters\obj\Debug\net6.0\ref\PipesAndFilters.dll

@@ -1,0 +1,14 @@
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\bin\Debug\net6.0\Server code.exe
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\bin\Debug\net6.0\Server code.deps.json
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\bin\Debug\net6.0\Server code.runtimeconfig.json
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\bin\Debug\net6.0\Server code.dll
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\bin\Debug\net6.0\Server code.pdb
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.AssemblyInfoInputs.cache
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.AssemblyInfo.cs
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.csproj.CoreCompileInputs.cache
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.dll
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\refint\Server code.dll
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.pdb
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\Server code.genruntimeconfig.cache
+C:\Users\salij\source\repos\workshop1-server\Server-code\dbp1\obj\Debug\net6.0\ref\Server code.dll
