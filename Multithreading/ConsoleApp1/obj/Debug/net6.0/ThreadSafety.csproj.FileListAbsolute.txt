@@ -1,0 +1,14 @@
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\bin\Debug\net6.0\ThreadSafety.exe
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\bin\Debug\net6.0\ThreadSafety.deps.json
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\bin\Debug\net6.0\ThreadSafety.runtimeconfig.json
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\bin\Debug\net6.0\ThreadSafety.dll
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\bin\Debug\net6.0\ThreadSafety.pdb
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.AssemblyInfoInputs.cache
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.AssemblyInfo.cs
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.csproj.CoreCompileInputs.cache
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.dll
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\refint\ThreadSafety.dll
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.pdb
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ThreadSafety.genruntimeconfig.cache
+C:\Users\salij\OneDrive\Documents\Distributed systems\Multithreading\ConsoleApp1\obj\Debug\net6.0\ref\ThreadSafety.dll
