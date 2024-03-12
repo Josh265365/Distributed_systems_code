@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4622083-07E8-49AF-BDE2-BD8C72CEE367}|ClientServer\\ClientServer.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\myfirstapi\\clientserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4622083-07E8-49AF-BDE2-BD8C72CEE367}|ClientServer\\ClientServer.csproj|solutionrelative:clientserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06286466-E77B-4B4A-9B80-39F1FA98E66F}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\myfirstapi\\myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06286466-E77B-4B4A-9B80-39F1FA98E66F}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06286466-E77B-4B4A-9B80-39F1FA98E66F}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\myfirstapi\\myfirstapi\\dataaccess\\mydatacrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06286466-E77B-4B4A-9B80-39F1FA98E66F}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\dataaccess\\mydatacrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06286466-E77B-4B4A-9B80-39F1FA98E66F}|MyFirstAPI\\MyFirstAPI.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\myfirstapi\\myfirstapi\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06286466-E77B-4B4A-9B80-39F1FA98E66F}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\ClientServer\\Program.cs",
+              "RelativeDocumentMoniker": "ClientServer\\Program.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\ClientServer\\Program.cs",
+              "RelativeToolTip": "ClientServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T17:18:19.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\MyFirstAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\MyFirstAPI\\Program.cs",
+              "RelativeToolTip": "MyFirstAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:24:38.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDataCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "RelativeToolTip": "MyFirstAPI\\DataAccess\\MyDataCRUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:07:28.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataController.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\MyFirstAPI\\Controllers\\DataController.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\DataController.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\MyFirstAPI\\MyFirstAPI\\Controllers\\DataController.cs",
+              "RelativeToolTip": "MyFirstAPI\\Controllers\\DataController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T17:14:19.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
