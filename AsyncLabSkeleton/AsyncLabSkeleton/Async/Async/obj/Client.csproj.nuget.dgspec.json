@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salij\\Downloads\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj": {}
+    "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salij\\Downloads\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj": {
+    "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salij\\Downloads\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\salij\\Downloads\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj",
+        "projectPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\Client.csproj",
         "packagesPath": "C:\\Users\\salij\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salij\\Downloads\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\obj\\",
+        "outputPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\AsyncLabSkeleton\\AsyncLabSkeleton\\Async\\Async\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

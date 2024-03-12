@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENGnvrImxWStHD5/eBFX9KVtNwLd84YPBGqBXPTyqVPFBdVnA82rf0z0pAPKyJip6lB1PQyZMsQZO9pBKk65PQ==",
+  "dgSpecHash": "hORe3vUoioWrAAZL3kjse4vIPYjnrAnVbeDGq2r6RFAbozMPeRAZYqWRPjO4CCaPa2AsZt27qkjmzHhL0meELQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Multithreading\\ConsoleApp1\\ThreadSafety.csproj",
+  "projectFilePath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\Multithreading\\ConsoleApp1\\ThreadSafety.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
