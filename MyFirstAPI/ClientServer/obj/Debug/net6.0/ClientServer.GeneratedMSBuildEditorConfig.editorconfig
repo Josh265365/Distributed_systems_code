@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClientServer
-build_property.ProjectDir = C:\Users\salij\OneDrive\Documents\Distributed systems\MyFirstAPI\ClientServer\
+build_property.ProjectDir = C:\Users\salij\OneDrive\Documents\Distributed systems\Distributed_systems_code\MyFirstAPI\ClientServer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
