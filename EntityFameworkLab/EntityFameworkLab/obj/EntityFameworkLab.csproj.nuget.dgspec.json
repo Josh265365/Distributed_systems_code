@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj": {}
+    "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj": {
+    "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj",
+        "projectUniqueName": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj",
         "projectName": "EntityFameworkLab",
-        "projectPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj",
+        "projectPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\EntityFameworkLab.csproj",
         "packagesPath": "C:\\Users\\salij\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\obj\\",
+        "outputPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\",
+  "WorkspaceRootPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\migrations\\20240315172141_changedagefromstringtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\20240315172141_changedagefromstringtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\migrations\\20240315170135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\20240315170135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\migrations\\20240315171522_addedcountrytoadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\20240315171522_addedcountrytoadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\entityfameworklab\\entityfameworklab\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\migrations\\20240315172141_changedagefromstringtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\20240315172141_changedagefromstringtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\migrations\\20240315170135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\20240315170135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\entityfameworklab\\entityfameworklab\\migrations\\20240315171522_addedcountrytoadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9FDCEC-3824-4A13-B28B-3A8A0C810D45}|EntityFameworkLab\\EntityFameworkLab.csproj|solutionrelative:entityfameworklab\\migrations\\20240315171522_addedcountrytoadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,63 +46,37 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
-              "RelativeToolTip": "EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Person.cs",
+              "RelativeDocumentMoniker": "EntityFameworkLab\\Person.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Person.cs",
+              "RelativeToolTip": "EntityFameworkLab\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T17:23:28.953Z",
+              "WhenOpened": "2024-03-15T16:39:28.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240315172141_ChangedAgeFromStringToInt.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
-              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
-              "RelativeToolTip": "EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFameworkLab\\Program.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Program.cs",
+              "RelativeToolTip": "EntityFameworkLab\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T17:21:41.704Z",
+              "WhenOpened": "2024-03-15T16:34:39.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240315171522_AddedCountryToAdress.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
-              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
-              "RelativeToolTip": "EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T17:15:22.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240315170135_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
-              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
-              "RelativeToolTip": "EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T17:01:35.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MyContext.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\MyContext.cs",
               "RelativeDocumentMoniker": "EntityFameworkLab\\MyContext.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\MyContext.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\MyContext.cs",
               "RelativeToolTip": "EntityFameworkLab\\MyContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +85,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Address.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Address.cs",
               "RelativeDocumentMoniker": "EntityFameworkLab\\Address.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Address.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Address.cs",
               "RelativeToolTip": "EntityFameworkLab\\Address.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,28 +99,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Person.cs",
-              "RelativeDocumentMoniker": "EntityFameworkLab\\Person.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Person.cs",
-              "RelativeToolTip": "EntityFameworkLab\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Title": "20240315172141_ChangedAgeFromStringToInt.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
+              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
+              "RelativeToolTip": "EntityFameworkLab\\Migrations\\20240315172141_ChangedAgeFromStringToInt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T16:39:28.703Z",
+              "WhenOpened": "2024-03-15T17:21:41.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Program.cs",
-              "RelativeDocumentMoniker": "EntityFameworkLab\\Program.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\EntityFameworkLab\\EntityFameworkLab\\Program.cs",
-              "RelativeToolTip": "EntityFameworkLab\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
+              "DocumentIndex": 6,
+              "Title": "MyContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeToolTip": "EntityFameworkLab\\Migrations\\MyContextModelSnapshot.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T16:34:39.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T17:23:28.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240315171522_AddedCountryToAdress.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
+              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
+              "RelativeToolTip": "EntityFameworkLab\\Migrations\\20240315171522_AddedCountryToAdress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T17:15:22.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240315170135_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\EntityFameworkLab\\EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
+              "RelativeToolTip": "EntityFameworkLab\\Migrations\\20240315170135_InitialCreate.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T17:01:35.296Z"
             }
           ]
         }

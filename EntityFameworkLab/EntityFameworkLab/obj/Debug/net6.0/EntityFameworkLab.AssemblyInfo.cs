@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntityFameworkLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8b2d83a36caa544eed9b5dc34b4c869049dd800")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntityFameworkLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntityFameworkLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
