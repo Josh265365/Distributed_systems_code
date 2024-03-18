@@ -1,0 +1,5 @@
+C:\Users\salij\Downloads\DistSysACWSkeletonSolution\DistSysAcw\DistSysAcwClient\obj\Debug\net6.0\DistSysAcwClient.csproj.AssemblyReference.cache
+C:\Users\salij\Downloads\DistSysACWSkeletonSolution\DistSysAcw\DistSysAcwClient\obj\Debug\net6.0\DistSysAcwClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salij\Downloads\DistSysACWSkeletonSolution\DistSysAcw\DistSysAcwClient\obj\Debug\net6.0\DistSysAcwClient.AssemblyInfoInputs.cache
+C:\Users\salij\Downloads\DistSysACWSkeletonSolution\DistSysAcw\DistSysAcwClient\obj\Debug\net6.0\DistSysAcwClient.AssemblyInfo.cs
+C:\Users\salij\Downloads\DistSysACWSkeletonSolution\DistSysAcw\DistSysAcwClient\obj\Debug\net6.0\DistSysAcwClient.csproj.CoreCompileInputs.cache

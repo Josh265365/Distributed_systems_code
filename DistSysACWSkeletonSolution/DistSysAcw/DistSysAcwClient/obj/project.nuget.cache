@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xRh3+7lo0XT92gsx2XEDhc+cOw8hCE4lEnj956JpzDrPTK1b573sIYbNvKQvUmK7HVSJ82jvqwZBC1paAsm39w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\salij\\Downloads\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwClient\\DistSysAcwClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\salij\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
