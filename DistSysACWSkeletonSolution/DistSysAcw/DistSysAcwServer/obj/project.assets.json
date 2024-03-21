@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salij\\Downloads\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\DistSysAcwServer.csproj",
+      "projectUniqueName": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\DistSysAcwServer.csproj",
       "projectName": "DistSysAcwServer",
-      "projectPath": "C:\\Users\\salij\\Downloads\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\DistSysAcwServer.csproj",
+      "projectPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\DistSysAcwServer.csproj",
       "packagesPath": "C:\\Users\\salij\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salij\\Downloads\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\obj\\",
+      "outputPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

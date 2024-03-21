@@ -1,5 +1,9 @@
+using DistSysAcwServer.Controllers;
+using DistSysAcwServer.DataAccess;
+using DistSysAcwServer.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,11 +17,17 @@ builder.Services.AddControllers(options =>
 builder.Services.AddDbContext<DistSysAcwServer.Models.UserContext>();
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddScoped<UserDatabaseAccess>(); // middle ware
+
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = "CustomAuthentication";
 }).AddScheme<AuthenticationSchemeOptions, DistSysAcwServer.Auth.CustomAuthenticationHandler>
     ("CustomAuthentication", options => { });
+
+
+
 
 builder.Services.AddTransient<IAuthorizationHandler, DistSysAcwServer.Auth.CustomAuthorizationHandler>();
 

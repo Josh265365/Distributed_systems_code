@@ -28,12 +28,13 @@ namespace DistSysAcwServer.Auth
             // (e.g. [Authorize(Roles = "Admin")]) and the user does not have the Admin role, you return a Forbidden status (403) 
             // with the message: "Forbidden. Admin access only."
             #endregion
+            var httpContext = HttpContextAccessor.HttpContext;
 
-            if (context.User != null && context.User.Identity.IsAuthenticated)
+            if (httpContext.User != null && httpContext.User.Identity.IsAuthenticated)
             {
                 foreach (string role in requirement.AllowedRoles)
                 {
-                    if (context.User.IsInRole(role))
+                    if (httpContext.User.IsInRole(role))
                     {
                         context.Succeed(requirement);
                         return Task.CompletedTask;
@@ -41,9 +42,13 @@ namespace DistSysAcwServer.Auth
                 }
             }
             
-            context.Fail();
+            //context.Fail();
 
-            return Task.CompletedTask;
+            //return Task.CompletedTask;
+
+            httpContext.Response.StatusCode = 403; // code to Forbidden
+            httpContext.Response.ContentType = "text/plain";
+            return httpContext.Response.WriteAsync("Forbidden. Admin access only.");
         }
     }
 }
