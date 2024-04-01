@@ -24,12 +24,37 @@ namespace DistSysAcwServer.Models
         public string UserName { get; set; }
         public string Role { get;  set; }
 
+        private static string _storedUsername;
+        private static string _storedApiKey;
+
         public User()
         {
 
+
            
         }
+        public static void setUser(string username, string apiKey)
+        {
+            User user = new User();
+            user.UserName = username;
+            user.ApiKey = apiKey;
+            _storedApiKey = apiKey;
+            _storedUsername = username;
+            Console.WriteLine("User stored");
+        }
+
+        public static string GetStoredUsername()
+        {
+            return _storedUsername;
+        }
+
+        public static string GetStoredApiKey()
+        {
+           return _storedApiKey;
+        }
     }
+
+  
 
     #region Task13?
     // TODO: You may find it useful to add code here for Logging

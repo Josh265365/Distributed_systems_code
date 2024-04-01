@@ -25,16 +25,8 @@ namespace DistSysAcwServer.Controllers
         [HttpGet("new")]
         public IActionResult CheckUserName([FromQuery(Name = "username")] string UserName)
         {
-            // Check if the user already exists in the database and return "Username already exists!" if it does
-            //if (DbContext.Users.Any(u => u.UserName == UserName))
-            //{
-            //    return Ok("Ture - User Does exists! Didi you mean to do a POST to create a new user");
-            //}
-            //else
-            //{
-            //    return Ok("False - User Does not exists! Did you mean to do a POST to create a new user?");
-            //}
-            if (_userDatabaseAccess.CheckUserExists(UserName))
+            bool userExists = _userDatabaseAccess.CheckUserExists(UserName);
+            if (userExists)
             {
                 return Ok("True - User already exists! Did you mean to do a POST to create a new user?");
             }
@@ -42,6 +34,15 @@ namespace DistSysAcwServer.Controllers
             {
                 return Ok("False - User does not exist! Did you mean to do a POST to create a new user?");
             }
+
+            //if (_userDatabaseAccess.CheckUserExists(UserName))
+            //{
+            //    return Ok("True - User already exists! Did you mean to do a POST to create a new user?");
+            //}
+            //else
+            //{
+            //    return Ok("False - User does not exist! Did you mean to do a POST to create a new user?");
+            //}
         }
 
 
@@ -203,7 +204,7 @@ namespace DistSysAcwServer.Controllers
         /// <param name="apiKey"></param>
         /// <param name="request"></param>
         /// <returns>new role</returns>
-        [HttpPut("ChangeRole")]
+        [HttpPost("ChangeRole")]//change to put
         [Authorize(Roles = "Admin")]
         public IActionResult ChangeRole([FromHeader(Name = "ApiKey")] string apiKey, [FromBody] ChangeUserRole request)
         {
@@ -212,7 +213,7 @@ namespace DistSysAcwServer.Controllers
                 return BadRequest("Username and new role must be provided.");
             }
 
-           if(_userDatabaseAccess.CheckUserExists(request.UserName))
+           if(!_userDatabaseAccess.CheckUserExists(request.UserName))
             {
                 return BadRequest("NOT DONE: Username does not exist.");
             }

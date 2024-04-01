@@ -51,11 +51,12 @@ namespace DistSysAcwServer.DataAccess
         /// </summary>
         /// <param name="apiKey"></param>
         /// <returns>true or flase</returns>
-        public bool CheckUserExists(string apiKey)
+        public bool CheckUserExists(string username)
         {
             //using (var context = new UserContext())
             //{
-                return _context.Users.Any(u => u.ApiKey == apiKey);
+               // return _context.Users.Any(u => u.ApiKey == apiKey);
+            return _context.Users.Any(u => u.UserName == username);
             //}
         }
 
@@ -91,6 +92,8 @@ namespace DistSysAcwServer.DataAccess
             //    return user; // Return the user object if found, or null if not found
             //}
             return _context.Users.FirstOrDefault(u => u.ApiKey == apiKey);
+
+
         }
 
 

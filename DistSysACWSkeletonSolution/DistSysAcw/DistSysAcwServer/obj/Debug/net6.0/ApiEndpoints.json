@@ -1,5 +1,67 @@
 [
   {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "GetHello",
+    "RelativePath": "api/protected/Hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "GetSha1",
+    "RelativePath": "api/protected/sha1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "GetSha256",
+    "RelativePath": "api/protected/sha256",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "DistSysAcwServer.Controllers.TalkbackController",
     "Method": "GetHello",
     "RelativePath": "api/Talkback/hello",
@@ -29,7 +91,7 @@
     "ContainingType": "DistSysAcwServer.Controllers.UserController",
     "Method": "ChangeRole",
     "RelativePath": "api/user/ChangeRole",
-    "HttpMethod": "PUT",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

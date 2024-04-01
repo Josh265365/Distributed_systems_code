@@ -24,9 +24,9 @@ namespace DistSysAcwServer.Controllers
         /// </summary>
         /// <returns>hello world</returns>
         [HttpGet("hello")]
-        public IActionResult GetHello()
+        public async Task<IActionResult> GetHello()
         {
-            return Ok("Hello World");
+            return await Task.FromResult( Ok("Hello World"));
         }
         #region TASK1
         #endregion
@@ -46,7 +46,7 @@ namespace DistSysAcwServer.Controllers
         /// <param name="integers"></param>
         /// <returns>sorted list of integers</returns>
         [HttpGet("sort")]
-        public IActionResult  GetSort([FromQuery(Name = "integers")] IEnumerable<string> integers)
+        public async Task<IActionResult>  GetSort([FromQuery(Name = "integers")] IEnumerable<string> integers)
         {
             List<int> parsedIntegers = new List<int>();
 
@@ -68,7 +68,7 @@ namespace DistSysAcwServer.Controllers
             }
 
             parsedIntegers.Sort();
-            return Ok(parsedIntegers);
+            return await Task.FromResult( Ok(parsedIntegers));
 
         }
 
