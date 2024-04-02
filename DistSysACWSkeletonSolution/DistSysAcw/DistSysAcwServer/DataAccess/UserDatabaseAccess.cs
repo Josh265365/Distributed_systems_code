@@ -22,21 +22,7 @@ namespace DistSysAcwServer.DataAccess
         /// </summary>
         /// <param name="username"></param>
         /// <returns>the user object</returns>
-        //public User CreateUser(string username)
-        //{
-        //    using (var context = new UserContext())
-        //    {
-        //        User user = new User();
-        //        user.UserName = username;
-        //        user.ApiKey = Guid.NewGuid().ToString();
-        //        user.Role = "User";
 
-        //        context.Users.Add(user); // Add the new user to the database
-        //        context.SaveChanges(); // Save changes to the database
-
-        //        return user; // Return the user object
-        //    }
-        //}
         public string CreateUser(string userName, string role)
         {
             var apiKey = Guid.NewGuid().ToString();
@@ -55,13 +41,13 @@ namespace DistSysAcwServer.DataAccess
         {
             //using (var context = new UserContext())
             //{
-               // return _context.Users.Any(u => u.ApiKey == apiKey);
+            // return _context.Users.Any(u => u.ApiKey == apiKey);
             return _context.Users.Any(u => u.UserName == username);
             //}
         }
 
 
-          
+
         /// <summary>
         /// check if user with given API key and username exists
         /// </summary>
@@ -70,13 +56,13 @@ namespace DistSysAcwServer.DataAccess
         /// <returns>true or false</returns>
         public bool CheckUserNameandAPIExists(string apiKey, string username)
         {
-           // using (var context = new UserContext())
-           // {
-                return _context.Users.Any(u => u.ApiKey == apiKey && u.UserName == username);
-           // }
+            // using (var context = new UserContext())
+            // {
+            return _context.Users.Any(u => u.ApiKey == apiKey && u.UserName == username);
+            // }
         }
 
-      
+
         /// <summary>
         /// Check if user with given API key exists
         /// </summary>
@@ -122,11 +108,11 @@ namespace DistSysAcwServer.DataAccess
 
         internal int GetTotalUserCount()
         {
-           // using (var context = new UserContext())
-           // {
-                return _context.Users.Count();
+            // using (var context = new UserContext())
+            // {
+            return _context.Users.Count();
             //}
-            
+
         }
 
         //internal void AddUser(User user)
@@ -136,16 +122,16 @@ namespace DistSysAcwServer.DataAccess
         //        _context.Users.Add(user);
         //        _context.SaveChanges();
         //   // }
-            
+
         //}
 
         internal User GetUserByUsernameAndApiKey(string username, string apiKey)
         {
-           // using (var context = new UserContext())
-           // {
-                return _context.Users.FirstOrDefault(u => u.UserName == username && u.ApiKey == apiKey);
-           // }
-           
+            // using (var context = new UserContext())
+            // {
+            return _context.Users.FirstOrDefault(u => u.UserName == username && u.ApiKey == apiKey);
+            // }
+
         }
 
         //internal void RemoveUser(object user)
@@ -155,57 +141,50 @@ namespace DistSysAcwServer.DataAccess
         //        _context.Users.Remove((User)user);
         //        _context.SaveChanges();
         //    //}
-            
+
         //}
 
         internal void SaveChanges()
         {
             //using (var context = new UserContext())
-           // {
-                _context.SaveChanges();
+            // {
+            _context.SaveChanges();
             //}
-            
+
         }
 
         internal object GetUserByUsername(string username)
         {
             //using (var context = new UserContext())
             //{
-                return _context.Users.FirstOrDefault(u => u.UserName == username);
+            return _context.Users.FirstOrDefault(u => u.UserName == username);
             //}
-            
+
         }
 
         internal bool UpdateRole(string userName, string newRole)
         {
             //using (var context = new UserContext())
             //{
-                var user = _context.Users.FirstOrDefault(u => u.UserName == userName);
-                if (user != null)
+            var user = _context.Users.FirstOrDefault(u => u.UserName == userName);
+            if (user != null)
             {
-                    user.Role = newRole;
-                    _context.SaveChanges();
-                    return true;
-                }
-                return false;
+                user.Role = newRole;
+                _context.SaveChanges();
+                return true;
+            }
+            return false;
             //}
-            
+
         }
 
-        //public bool deleteUser(string apiKey)
-        //{
-        //    using (var context = new UserContext())
-        //    {
-        //        var user = context.Users.FirstOrDefault(u => u.ApiKey == apiKey);
-        //        if (user != null)
-        //        {
-        //            context.Users.Remove(user); // Marking the user for deletion
-        //            context.SaveChanges(); // Committing the deletion to the database
-        //            return true;
-        //        }
-        //        return false;
-        //    }
-        //}
+        // Method to add log to user's collection of logs
+        public void AddLogToUser(User user, string message)
+        {
+            user.Logs.Add(new Log(message)); // Create a new log and add it to the user's collection
+            _context.SaveChanges(); // Save changes to the database
+        }
+
 
 
 

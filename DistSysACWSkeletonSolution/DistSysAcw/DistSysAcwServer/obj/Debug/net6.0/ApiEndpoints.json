@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "GetPublicKey",
+    "RelativePath": "api/protected/GetPublicKey",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
     "Method": "GetHello",
     "RelativePath": "api/protected/Hello",
     "HttpMethod": "GET",
@@ -60,6 +70,27 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
+    "Method": "SignMessage",
+    "RelativePath": "api/protected/Sign",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "DistSysAcwServer.Controllers.TalkbackController",

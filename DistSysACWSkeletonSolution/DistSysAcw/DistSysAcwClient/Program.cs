@@ -125,7 +125,8 @@ class Progam
             return;
         }
 
-        string subAction = parts[1].ToLower();
+       // string subAction = parts[1].ToLower();
+        string subAction = string.Join(" ", parts.Skip(1)).ToLower();
         switch (subAction)
         {
             case "hello":
@@ -138,10 +139,10 @@ class Progam
                 await HandleProtectedSha256(client, parts);
                 break;
             case "get publickey":
-               // await HandleProtectedGetPublicKey(client);
+                await HandleProtectedGetPublicKey(client);
                 break;
             case "sign hello":
-              //  await HandleProtectedSign(client, parts);
+                await HandleProtectedSign(client, parts);
                 break;
             case "mashififty":
                // await HandleProtectedAddFifty(client, parts);
@@ -153,6 +154,102 @@ class Progam
 
     }
 
+    private static async Task HandleProtectedSign(HttpClient client, string[] parts)
+    {
+        // Check if the command is valid
+        if (parts.Length < 3)
+        {
+            Console.WriteLine("Invalid sign command. Usage: protected sign <message>");
+            return;
+        }
+
+        // Get the locally stored API key
+        string storedapiKey = User.GetStoredApiKey();
+
+        // Check if the API key exists
+        if (storedapiKey == null)
+        {
+            Console.WriteLine("You need to do a User Post or User Set first");
+            return;
+        }
+
+        string message = parts[2];
+
+        Console.WriteLine(".............Please wait..........");
+
+        try
+        {
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri($"https://localhost:44394/api/protected/sign?message={message}"),
+            };
+
+            // Add the API key to the request headers
+            request.Headers.Add("ApiKey", storedapiKey);
+
+            var response = await client.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+               // Console.WriteLine(content);
+                Console.WriteLine("Message was successfully signed");
+            }
+            else
+            {
+                Console.WriteLine("Message was not successfully signed");
+                Console.WriteLine($"Error: {response.StatusCode}");
+            }
+        }
+        catch (HttpRequestException)
+        {
+            Console.WriteLine("Error: failed to send request");
+        }
+        
+    }
+
+    private static async Task HandleProtectedGetPublicKey(HttpClient client)
+    {
+        string storedApiKey = User.GetStoredApiKey();
+
+        if (storedApiKey == null)
+        {
+            Console.WriteLine("You need to do a User Post or User Set first");
+            return;
+        }
+
+        try
+        {
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri("https://localhost:44394/api/protected/getpublickey")
+            };
+            request.Headers.Add("ApiKey", storedApiKey);
+
+            var response = await client.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var publicKeyXml = await response.Content.ReadAsStringAsync();
+                // Store the public key XML (you can store it as a variable or write to a file)
+                // For example, you can store it as a variable:
+                // string publicKeyXml = await response.Content.ReadAsStringAsync();
+                Console.WriteLine("Got Public Key");
+            }
+            else
+            {
+                Console.WriteLine($"Error: {response.StatusCode}");
+            }
+        }
+        catch (HttpRequestException)
+        {
+            Console.WriteLine("Error: failed to send request");
+        }
+    }
+
+    
     private static async Task HandleProtectedSha256(HttpClient client, string[] parts)
     {
         // Check if the command is valid
@@ -435,7 +532,6 @@ class Progam
         }
     }
 
-
     private static async Task HandleUserSet(HttpClient client, string[] parts)
     {
 
@@ -458,7 +554,6 @@ class Progam
        Console.WriteLine("Stored username: " + username +" and apiKey: " + apiKey);
 
     }
-
 
 
     private static async Task HandleUserPost(HttpClient client, string[] parts)
