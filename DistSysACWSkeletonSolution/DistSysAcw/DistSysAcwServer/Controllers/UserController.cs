@@ -152,6 +152,13 @@ namespace DistSysAcwServer.Controllers
             //_userDatabaseAccess.RemoveUser(user);
             _userDatabaseAccess.DeleteUser(apiKey);
 
+
+            _userDatabaseAccess.AddLogToUser(apiKey, $"User requested /User/RemoveUser and removed user {user} ");
+          //  _userDatabaseAccess.AddLogArchive(apiKey, $"User requested /User/RemoveUser and removed user {user} ");
+
+           
+            
+
             return Ok(true); // User deleted successfull
         }
 
@@ -225,6 +232,7 @@ namespace DistSysAcwServer.Controllers
 
             if(_userDatabaseAccess.UpdateRole(request.UserName, request.NewRole))
             {
+                _userDatabaseAccess.AddLogToUser(apiKey, $"user requested /User/ChangeRole and changed {request.UserName}'s role to {request.NewRole}");
                 return Ok("DONE");
             }
             else

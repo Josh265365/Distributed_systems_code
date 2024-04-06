@@ -28,6 +28,8 @@ namespace DistSysAcwServer.Models
         private static string _storedApiKey;
 
         public virtual ICollection<Log> Logs { get; set; } = new List<Log>();
+       // public virtual ICollection<LogArchive> LogArchives { get; set; } = new List<LogArchive>();
+
 
         public User()
         {

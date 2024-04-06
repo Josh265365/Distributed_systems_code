@@ -98,11 +98,36 @@ namespace DistSysAcwServer.DataAccess
             //        context.SaveChanges(); // Committing the deletion to the database
             //    }
             //}
-            var user = _context.Users.FirstOrDefault(u => u.ApiKey == apiKey);
+
+              var user = _context.Users.FirstOrDefault(u => u.ApiKey == apiKey);
+            //var user = _context.Users.Include(u => u.Logs).FirstOrDefault(u => u.ApiKey == apiKey);
             if (user != null)
             {
+                // var archiveLogs = new LogArchive();
+                var logs = user.Logs.ToList();
+
+                foreach (var log in logs)
+                {
+                    //var archiveLogs = new LogArchive(apiKey, log.LogString);
+                    var archiveLogs = new LogArchive//fix this
+                    {
+                        LogString = log.LogString,
+                        LogDateTime = log.LogDateTime,
+                        UserApiKey = user.ApiKey
+                    };
+
+                    //var archiveLogs = new LogArchive(log.LogString, user.ApiKey);
+
+                    _context.LogArchives.Add(archiveLogs);
+
+                }
+
+
+
                 _context.Users.Remove(user);
                 _context.SaveChanges();
+
+               
             }
         }
 
@@ -179,13 +204,32 @@ namespace DistSysAcwServer.DataAccess
         }
 
         // Method to add log to user's collection of logs
-        public void AddLogToUser(User user, string message)
+        public void AddLogToUser(string apiKey, string logMessage)
         {
-            user.Logs.Add(new Log(message)); // Create a new log and add it to the user's collection
-            _context.SaveChanges(); // Save changes to the database
+            var user = GetUserByApiKey(apiKey);
+            if (user != null)
+            {
+                var log = new Log(logMessage);
+                user.Logs.Add(log);
+             
+                _context.SaveChanges();
+            }
         }
 
+        //public void AddLogArchive(string apiKey, string logMessage)
+        //{
+        //    //var user = GetUserByApiKey(apiKey);
+        //    //if (user != null)
+        //    //{
+        //    //    var log = new LogArchive(logMessage);
+        //    //    user.LogArchives.Add(log);
+        //    //    _context.SaveChanges();
+        //    //}
 
+        //    var log = new LogArchive(logMessage, apiKey);  // Pass the user's API key to the LogArchive constructor
+        //    _context.LogArchives.Add(log);
+        //    _context.SaveChanges();
+        //}
 
 
     }

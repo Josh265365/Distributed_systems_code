@@ -7,21 +7,28 @@ using System.Linq;
 
 namespace DistSysAcwServer.Models
 {
-    public class Log
+    public class LogArchive
     {
         [Key]
         public int LogId { get; set; }
         public string LogString { get; set; }
         public DateTime LogDateTime { get; set; }
 
-        public Log()
+       public string UserApiKey { get; set; }
+
+
+        public LogArchive()
         {
 
         }
-        public Log(string logString)
+
+        public LogArchive(string Logstring, string userApiKey)
         {
+
             LogDateTime = DateTime.Now;
-            LogString = logString;
+            LogString = Logstring;
+            UserApiKey = userApiKey;
+
         }
     }
 }
