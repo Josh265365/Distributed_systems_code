@@ -39,11 +39,9 @@ namespace DistSysAcwServer.DataAccess
         /// <returns>true or flase</returns>
         public bool CheckUserExists(string username)
         {
-            //using (var context = new UserContext())
-            //{
-            // return _context.Users.Any(u => u.ApiKey == apiKey);
+            
             return _context.Users.Any(u => u.UserName == username);
-            //}
+            
         }
 
 
@@ -89,15 +87,7 @@ namespace DistSysAcwServer.DataAccess
         /// <param name="apiKey"></param>
         public void DeleteUser(string apiKey)
         {
-            //using (var context = new UserContext())
-            //{
-            //    var user = context.Users.FirstOrDefault(u => u.ApiKey == apiKey);
-            //    if (user != null)
-            //    {
-            //        context.Users.Remove(user); // Marking the user for deletion
-            //        context.SaveChanges(); // Committing the deletion to the database
-            //    }
-            //}
+            
 
               var user = _context.Users.FirstOrDefault(u => u.ApiKey == apiKey);
             //var user = _context.Users.Include(u => u.Logs).FirstOrDefault(u => u.ApiKey == apiKey);
@@ -140,57 +130,37 @@ namespace DistSysAcwServer.DataAccess
 
         }
 
-        //internal void AddUser(User user)
-        //{
-        //   // using (var context = new UserContext())
-        //   // {
-        //        _context.Users.Add(user);
-        //        _context.SaveChanges();
-        //   // }
 
-        //}
 
         internal User GetUserByUsernameAndApiKey(string username, string apiKey)
         {
-            // using (var context = new UserContext())
-            // {
+            
             return _context.Users.FirstOrDefault(u => u.UserName == username && u.ApiKey == apiKey);
-            // }
+            
 
         }
 
-        //internal void RemoveUser(object user)
-        //{
-        //   // using (var context = new UserContext())
-        //   // {
-        //        _context.Users.Remove((User)user);
-        //        _context.SaveChanges();
-        //    //}
-
-        //}
+    
 
         internal void SaveChanges()
         {
-            //using (var context = new UserContext())
-            // {
+           
             _context.SaveChanges();
-            //}
+            
 
         }
 
         internal object GetUserByUsername(string username)
         {
-            //using (var context = new UserContext())
-            //{
+          
             return _context.Users.FirstOrDefault(u => u.UserName == username);
-            //}
+           
 
         }
 
         internal bool UpdateRole(string userName, string newRole)
         {
-            //using (var context = new UserContext())
-            //{
+           
             var user = _context.Users.FirstOrDefault(u => u.UserName == userName);
             if (user != null)
             {
@@ -199,7 +169,7 @@ namespace DistSysAcwServer.DataAccess
                 return true;
             }
             return false;
-            //}
+            
 
         }
 

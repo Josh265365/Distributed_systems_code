@@ -148,7 +148,7 @@ class Progam
                 await HandleProtectedSign(client, parts);
                 break;
             case "mashififty":
-                await HandleProtectedAddFifty(client, parts);
+               // await HandleProtectedMashifyFifty(client, parts);
                 break;
             default:
                 Console.WriteLine("Invalid protected subcommand.");
@@ -157,57 +157,7 @@ class Progam
 
     }
 
-    private static async Task HandleProtectedAddFifty(HttpClient client, string[] parts)
-    {
-        // Check if the command is valid
-        if (parts.Length < 3)
-        {
-            Console.WriteLine("Invalid add Mashifty command. Usage: protected mashify <meesage>");
-            return;
-        }
-
-        // Get the locally stored API key
-        string storedapiKey = User.GetStoredApiKey();
-
-        // Check if the API key exists
-        if (storedapiKey == null)
-        {
-            Console.WriteLine("You need to do a User Post or User Set first");
-            return;
-        }
-
-        string message = parts[2];
-
-        Console.WriteLine(".............Please wait..........");
-
-        try
-        {
-            var request = new HttpRequestMessage
-            {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri($"https://localhost:44394/api/protected/addfifty?number={message}"),
-            };
-
-            // Add the API key to the request headers
-            request.Headers.Add("ApiKey", storedapiKey);
-
-            var response = await client.SendAsync(request);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var content = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(content);
-            }
-            else
-            {
-                Console.WriteLine($"Error: {response.StatusCode}");
-            }
-        }
-        catch (HttpRequestException)
-        {
-            Console.WriteLine("Error: failed to send request");
-        }
-    }//fix this
+    
 
     private static async Task HandleProtectedSign(HttpClient client, string[] parts)
     {
@@ -288,8 +238,7 @@ class Progam
             if (response.IsSuccessStatusCode)
             {
                 var publicKeyXml = await response.Content.ReadAsStringAsync();
-                // Store the public key XML (you can store it as a variable or write to a file)
-                // For example, you can store it as a variable:
+                
                 // string publicKeyXml = await response.Content.ReadAsStringAsync();
                 Console.WriteLine("Got Public Key");
             }

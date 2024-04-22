@@ -12,7 +12,7 @@ namespace DistSysAcwServer.Controllers
 {
     [Route("api/user")]
     [ApiController]
-    public class UserController : ControllerBase //: BaseController
+    public class UserController : ControllerBase 
     {
         // public UserController(Models.UserContext dbcontext) : base(dbcontext) { }
         private readonly UserDatabaseAccess _userDatabaseAccess;
@@ -35,46 +35,15 @@ namespace DistSysAcwServer.Controllers
                 return Ok("False - User does not exist! Did you mean to do a POST to create a new user?");
             }
 
-            //if (_userDatabaseAccess.CheckUserExists(UserName))
-            //{
-            //    return Ok("True - User already exists! Did you mean to do a POST to create a new user?");
-            //}
-            //else
-            //{
-            //    return Ok("False - User does not exist! Did you mean to do a POST to create a new user?");
-            //}
+          
         }
 
 
         [HttpPost("new")]
-        //create a new user with given username and creating a new GUID which is saved as a strignto the database as the ApiKey and return the api key to the user with a status code of ok 200.If this is the first user created, the user should be given the role of Admin, all other users should be given the role of User.
+       
         public IActionResult CreateUser([FromBody] string username)
         {
-            //if (DbContext.Users.Any(u => u.UserName == username))
-            //{
-            //    return BadRequest("Oops.This Username is already in use. Please try again with a new username");
-            //}
-            //if (username == null)
-            //{
-            //    return StatusCode(403, "Oops. Make sure your body contains a string with your username and your Content-Type is Content-Type:application/json");
-            //}
-            //else
-            //{
-            //    Models.User user = new Models.User();
-            //    user.UserName = username;
-            //    user.ApiKey = Guid.NewGuid().ToString();
-            //    if (DbContext.Users.Count() == 0)
-            //    {
-            //        user.Role = "Admin";
-            //    }
-            //    else
-            //    {
-            //        user.Role = "User";
-            //    }
-            //    DbContext.Users.Add(user);
-            //    DbContext.SaveChanges();
-            //    return Ok(user.ApiKey);
-            //}
+          
             if (_userDatabaseAccess.CheckUserExists(username))
             {
                 return BadRequest("Oops. This username is already in use. Please try again with a new username");
@@ -99,43 +68,13 @@ namespace DistSysAcwServer.Controllers
         }
 
 
-        //[HttpDelete("RemoveUser")]
-        //public IActionResult RemoveUser([FromHeader(Name = "ApiKey")] string apiKey, [FromQuery(Name ="username")] string username)
-        //{
-        //    if (DbContext.Users.Any(u => u.ApiKey == apiKey))
-        //    {
-        //        var user = DbContext.Users.FirstOrDefault(u => u.ApiKey == apiKey);
-        //        if (user != null && user.UserName != username)
-        //        {
-        //            DbContext.Users.Remove(user);
-        //            DbContext.SaveChanges();
-        //        }
-
-        //        return Ok(true);
-        //    }
-        //    return Ok(false);
-        //}
+   
 
         [HttpDelete("RemoveUser")]
         [Authorize(Roles = "Admin, User")]
         public IActionResult RemoveUser([FromHeader(Name = "ApiKey")] string apiKey, [FromQuery(Name = "username")] string username)
         {
-            //if (string.IsNullOrEmpty(apiKey) || string.IsNullOrEmpty(username))
-            //{
-            //    return BadRequest("API Key and username must be provided.");
-            //}
-
-            //var user = DbContext.Users.FirstOrDefault(u => u.UserName == username && u.ApiKey == apiKey);
-
-            //if (user == null && apiKey==null)
-            //{
-            //    return Ok(false); // User not found or not authorized to delete
-            //}
-
-            //DbContext.Users.Remove(user);
-            //DbContext.SaveChanges();
-
-            //return Ok(true); // User deleted successfully
+            
 
             if (string.IsNullOrEmpty(apiKey) || string.IsNullOrEmpty(username))
             {

@@ -21,37 +21,6 @@
   },
   {
     "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
-    "Method": "Mashify",
-    "RelativePath": "api/protected/Mashify",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "ApiKey",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "encryptedString",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "encryptedSymKey",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "encryptedIV",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
     "Method": "GetSha1",
     "RelativePath": "api/protected/sha1",
     "HttpMethod": "GET",
@@ -101,27 +70,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "DistSysAcwServer.Controllers.ProtectedController",
-    "Method": "SignMessage",
-    "RelativePath": "api/protected/Sign",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "ApiKey",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "message",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "DistSysAcwServer.Controllers.TalkbackController",
