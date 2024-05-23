@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{276D5CFF-019E-4FE1-A6CE-BD6135C9259F}|DistSysAcwClient\\DistSysAcwClient.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\distsysacwskeletonsolution\\distsysacw\\distsysacwclient\\jsconfig1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{276D5CFF-019E-4FE1-A6CE-BD6135C9259F}|DistSysAcwClient\\DistSysAcwClient.csproj|solutionrelative:distsysacwclient\\jsconfig1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\distsysacwskeletonsolution\\distsysacw\\distsysacwserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{276D5CFF-019E-4FE1-A6CE-BD6135C9259F}|DistSysAcwClient\\DistSysAcwClient.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\distsysacwskeletonsolution\\distsysacw\\distsysacwclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{276D5CFF-019E-4FE1-A6CE-BD6135C9259F}|DistSysAcwClient\\DistSysAcwClient.csproj|solutionrelative:distsysacwclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\distsysacwskeletonsolution\\distsysacw\\distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|c:\\users\\salij\\onedrive\\documents\\distributed systems\\distributed_systems_code\\distsysacwskeletonsolution\\distsysacw\\distsysacwserver\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17558958-C35A-43BC-A0D7-D3C9360B7DFD}|DistSysAcwServer\\DistSysAcwServer.csproj|solutionrelative:distsysacwserver\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\appsettings.json",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\appsettings.json",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\appsettings.json",
-              "RelativeToolTip": "DistSysAcwServer\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T13:40:55.516Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "jsconfig1.json",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwClient\\jsconfig1.json",
-              "RelativeDocumentMoniker": "DistSysAcwClient\\jsconfig1.json",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwClient\\jsconfig1.json",
-              "RelativeToolTip": "DistSysAcwClient\\jsconfig1.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T13:35:33.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwClient\\Program.cs",
               "RelativeDocumentMoniker": "DistSysAcwClient\\Program.cs",
               "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwClient\\Program.cs",
               "RelativeToolTip": "DistSysAcwClient\\Program.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAcwJYAAABDAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T17:06:49.467Z"
+              "WhenOpened": "2024-05-07T13:33:30.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\Program.cs",
-              "RelativeDocumentMoniker": "DistSysAcwServer\\Program.cs",
-              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\Program.cs",
-              "RelativeToolTip": "DistSysAcwServer\\Program.cs",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "DistSysAcwServer\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\salij\\OneDrive\\Documents\\Distributed systems\\Distributed_systems_code\\DistSysACWSkeletonSolution\\DistSysAcw\\DistSysAcwServer\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "DistSysAcwServer\\Controllers\\BaseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:38:31.192Z"
+              "WhenOpened": "2024-05-07T13:14:56.689Z",
+              "EditorCaption": ""
             }
           ]
         }
